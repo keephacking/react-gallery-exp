@@ -15,52 +15,48 @@ export default class Slider extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <div id="main" role="main" className="Main">
-          <section className="slider">
-            <div className="flexslider carousel" ref="flexslider">
-              <ul className="slides">
-                <li>
-                  <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_lemon.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_donut.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_caramel.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_lemon.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_donut.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_caramel.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_lemon.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_donut.jpg" />
-                </li>
-                <li>
-                  <img src="images/kitchen_adventurer_caramel.jpg" />
-                </li>
-              </ul>
-            </div>
-          </section>
+      <section className="slider">
+        <div className="flexslider carousel" ref="flexslider">
+          <ul className="slides">
+            <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>
+          </ul>
         </div>
-      </div>
+      </section>
     );
   }
 }

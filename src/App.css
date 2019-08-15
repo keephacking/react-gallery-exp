@@ -28,9 +28,9 @@
   height: 100%;
   width: 100%;
 }
-.slider{
-  height:400px;
-  width:500px;
+.slider {
+  height: 400px;
+  width: 500px;
 }
 @keyframes App-logo-spin {
   from {
@@ -39,4 +39,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
