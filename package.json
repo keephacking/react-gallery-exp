@@ -5,6 +5,8 @@
   "dependencies": {
     "flexslider": "https://github.com/woocommerce/FlexSlider.git",
     "jquery": "^3.4.1",
+    "lightgallery": "1.6.11",
+    "lightslider": "1.1.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-image-video-lightbox": "^2.0.1",

@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+import "flexslider/flexslider.css";
+import 'flexslider/jquery.flexslider-min.js';
+
 export default class Slider extends Component {
   componentDidMount() {
     window.$(this.refs.flexslider).flexslider({

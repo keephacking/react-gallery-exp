@@ -29,8 +29,8 @@
   width: 100%;
 }
 .slider {
-  height: 400px;
-  width: 500px;
+  min-height: 200px;
+  width: 80%;
 }
 @keyframes App-logo-spin {
   from {
@@ -45,4 +45,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }

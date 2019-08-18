@@ -6,8 +6,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@import "../node_modules/flexslider/flexslider.css";
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
@@ -26,6 +24,7 @@ html,
   left: 0;
   right: 0;
   bottom: 0;
-  z-index:999;
+  z-index: 999;
   overflow: hidden;
 }
+
